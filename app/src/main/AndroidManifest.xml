@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.keele_v11" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".Keele_v11"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewsfeedActivity"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+        <activity android:name=".EventsActivity" >
+        </activity>
+        <activity android:name=".WhatsupActivity" >
+        </activity>
+        <activity android:name=".LostnFoundActivity" >
+        </activity>
+        <activity
+            android:name=".MoreActivity"
+            android:label="@string/title_activity_more" >
+        </activity>
+        <activity android:name=".PostActivity" >
+        </activity>
+        <activity android:name=".LayoutPickerActivity" >
+        </activity>
+        <activity android:name=".PostLnfActivity" >
+        </activity>
+        <activity android:name=".PostNewsActivity" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+        <activity android:name=".PostEvent" >
+        </activity>
+        <activity android:name=".Forgotpassword" >
+        </activity>
+        <activity android:name=".RegisterActivity" >
+        </activity>
+        <activity android:name=".ActivateActivity" >
+        </activity>
+    </application>
+
+</manifest>

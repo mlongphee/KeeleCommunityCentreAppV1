@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_news"
+        android:icon="@drawable/icnews"
+        android:title="News Feed"/>
+    <item
+        android:id="@+id/action_events"
+        android:icon="@drawable/calendar_icon"
+        android:title="Events" />
+    <item
+        android:id="@+id/action_whatUp"
+        android:icon="@drawable/ic_loc"
+        android:title="What's Up" />
+    <item
+        android:id="@+id/action_lostfound"
+        android:icon="@drawable/help"
+        android:title="Lost Items" />
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/ic_more"
+        android:title="More" />
+</menu>

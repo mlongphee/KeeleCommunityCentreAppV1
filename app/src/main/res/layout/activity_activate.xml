@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.keele_v11.PostActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/activateButton"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Activate User"
+            android:id="@+id/textView2"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userEmail"
+            android:background="@drawable/input_outline"
+            android:layout_below="@+id/imageSelect"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:hint="Users Email ..."
+            android:layout_gravity="center_horizontal" />
+
+        <RelativeLayout
+            android:id="@+id/itemSuggest2"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackground"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingEnd="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/activate"
+                android:layout_centerVertical="true"
+                android:tint="@color/colorAccent"
+                tools:ignore="ContentDescription" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="56dp"
+                    android:layout_marginStart="56dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/text1a2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Activate user"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/textPrimary" />
+
+                    <TextView
+                        android:id="@+id/text2a2"
+                        android:layout_width="179dp"
+                        android:layout_height="wrap_content"
+                        android:text="Allows user to access app"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/textSecondary"/>
+
+                </LinearLayout>
+
+                <com.suke.widget.SwitchButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="25dp"
+                    android:id="@+id/switchActivate" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/itemRate2"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackground"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingEnd="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/admin"
+                android:layout_centerVertical="true"
+                android:tint="@color/colorAccent"
+                tools:ignore="ContentDescription"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="56dp"
+                    android:layout_marginStart="56dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/text1b2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Make Admin"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/textPrimary"/>
+
+                    <TextView
+                        android:id="@+id/text2b2"
+                        android:layout_width="179dp"
+                        android:layout_height="wrap_content"
+                        android:text="Gives the user admin features"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/textSecondary"/>
+
+                </LinearLayout>
+
+                <com.suke.widget.SwitchButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="25dp"
+                    android:id="@+id/switchAdmin" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activate"
+        android:id="@+id/activateButton"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff" />
+</RelativeLayout>

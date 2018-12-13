@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "989612562106",
+    "firebase_url": "https://keele-cc-v1.firebaseio.com",
+    "project_id": "keele-cc-v1",
+    "storage_bucket": "keele-cc-v1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989612562106:android:76ea044ff35993d4",
+        "android_client_info": {
+          "package_name": "com.keele_v11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989612562106-jk0jmd9q5ibvihh86f70pr7fn7b7mldp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.keele_v11",
+            "certificate_hash": "c45bb4999643611891634c998107099265def90c"
+          }
+        },
+        {
+          "client_id": "989612562106-95qcu3oscpguf6th4r0jdfd5utli25g4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvCy3vb5RXaqXJfLkb0p4u3r9tQdsi2-o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989612562106-95qcu3oscpguf6th4r0jdfd5utli25g4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
